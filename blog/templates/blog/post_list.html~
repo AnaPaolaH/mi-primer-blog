@@ -1,7 +1,16 @@
 <html>
     <head>
-        <title>Ola's blog</title>
+        <title>Blog de Paola</title>
     </head>
+    <body>
+        <div>
+            <h1><a href="">Django Girls Blog</a></h1>
+        </div>
+	{% for post in posts %}
+        {{ post }}
+	{% endfor %}
+
+    </body>
         <p>Yo Yo!!!</p>
     	<p>Funciona!</p>
 </html>
